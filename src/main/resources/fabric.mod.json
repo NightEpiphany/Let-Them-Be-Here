@@ -1,0 +1,27 @@
+{
+	"schemaVersion": 1,
+	"id": "let_them_here",
+	"version": "${version}",
+	"name": "Let Them Here",
+	"description": "Stop the annoying sudden despawn of hostile mob in peaceful mode! \n Of curse, they're peaceful in peaceful mode!",
+	"authors": [
+		"NightEpiphany"
+	],
+	"license": "CC0-1.0",
+	"icon": "assets/let_them_here/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.moigferdsrte.let_them_here.LetThemHere"
+		]
+	},
+	"mixins": [
+		"let_them_here.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.9",
+		"minecraft": "~1.21.1",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}
